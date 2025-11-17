@@ -1,17 +1,17 @@
-import type { ManuButtonType } from "../types/ManuButtonType"
+import type { ManuButtonType } from "../types/ManuButtonType";
 
 interface ManuButtonProps {
-    manu:ManuButtonType;
+  value: ManuButtonType;
 }
 
-const ManuButton = ({manu}:ManuButtonProps) => {
+const ManuButton = ({ value }: ManuButtonProps) => {
   return (
-    <div className=" p-2">
-<button className=" bg-black text-white px-8 py-2 rounded hover:bg-yellow-400 hover:text-black transition-colors duration-500">
-    {manu}
-    </button>
+    <div>
+      <button className=" flex bg-black text-white px-3 py-2 rounded hover:bg-yellow-400 hover:text-black transition-colors duration-500">
+        {value.title}
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default ManuButton
+export default ManuButton;
