@@ -11,7 +11,7 @@ const ManuButtonList = ({items}:ManuButtonListProps) => {
         {items.map((item)=>(
             <ManuButton
             key={item.id}
-            manu = {item}
+            manu={item}
             />
         ))}
     </div>

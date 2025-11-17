@@ -7,7 +7,9 @@ interface ManuButtonProps {
 const ManuButton = ({manu}:ManuButtonProps) => {
   return (
     <div className=" p-2">
-<button className=" bg-black text-white px-8 py-2 rounded hover:bg-yellow-400 hover:text-black transition-colors duration-500">{manu}</button>
+<button className=" bg-black text-white px-8 py-2 rounded hover:bg-yellow-400 hover:text-black transition-colors duration-500">
+    {manu}
+    </button>
     </div>
   )
 }
