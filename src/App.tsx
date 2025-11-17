@@ -3,8 +3,7 @@ import ManuButtonList from "./components/ManuButtonList";
 import type { ManuButtonType } from "./types/ManuButtonType";
 
 function App() {
-  const ManuItems: ManuButtonType[] = [
-    {
+  const ManuItems: ManuButtonType[] = [{
       id: 1,
       title: "Popular!",
     },
